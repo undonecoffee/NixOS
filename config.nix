@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: {
-  programs.bash.promptInit = ''export PS1=" \[\e[92m\]nix \[\e[96m\]❯❯\[\e[0m\] " '';
+  programs.bash.promptInit = ''export PS1=" \[\e[92m\]n ix \[\e[96m\]❯❯\[\e[0m\] " '';
   environment.shellAliases = {
     cn = "sudo vim /etc/nixos/configuration.nix";
     rb = "sudo nixos-rebuild switch";
